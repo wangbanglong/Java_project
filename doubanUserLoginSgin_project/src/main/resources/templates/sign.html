@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/login.css" />
+    <title>豆瓣注册</title>
+</head>
+<body>
+<h2>新用户注册</h2>
+<p>请输入注册信息</p>
+<form action="/app/register" method="POST" name="user">
+    <div>
+        <input type="text" placeholder="用户名" name="name"  />
+    </div>
+    <div>
+        <input type="text" placeholder="登录密码" name="password"  />
+    </div>
+    <div>
+        <input type="text" placeholder="手机号" name="mobile"  />
+    </div>
+    <div>
+        <button type="submit" >登录</button>
+    </div>
+    </form>
+</body>
+</html>
