@@ -17,7 +17,7 @@ Java小项目 运用java网络编程知识，对热门歌曲的评论进行爬�
 
 
 
-WordCloudUtil是词云图工具类
+WordCloudUtil是词云图工具类。
 
 
 
